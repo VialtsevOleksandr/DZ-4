@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 public interface IGeographicObject
 {
     double XCoordinate { get; set; }
@@ -20,7 +20,7 @@ public class River : IGeographicObject
     public string GetInformation()
     {
         return $"Назва: {Name}\nХ: {XCoordinate}\nY: {YCoordinate}\nОпис: {Description}\n" +
-               $"Швидкість течії: {CurrentSpeed} см/с\nЗагальна довжина: {TotalLength} м\n";
+               $"Швидкість течiї: {CurrentSpeed} см/с\nЗагальна довжина: {TotalLength} м\n";
     }
 }
 public class Mountain : IGeographicObject
